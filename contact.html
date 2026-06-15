@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - MD Abdus Sadir</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3" href="index.html"> SADIR </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="bg-info text-dark py-5 mb-5">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold mb-4 mt-5">Get In Touch</h1>
+      <p class="lead fs-5">Let's discuss your next project</p>
+    </div>
+  </section>
+
+  <!-- contact form -->
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 bg-white p-4 shadow-sm rounded">
+        <h3 class="text-center mb-4">Contact Us</h3>
+
+        <form id="contactForm">
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Your Name">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Your Email">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Phone</label>
+            <input type="tel" id="phone" class="form-control" placeholder="Your Phone">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Address</label>
+            <input type="text" id="address" class="form-control" placeholder="Your Address">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea id="message" class="form-control" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('contactForm');
+
+    form.onsubmit = function (event) {
+      // Stop the form from refreshing the page
+      event.preventDefault();
+
+      // Get values from the inputs
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const phone = document.getElementById('phone').value;
+      const address = document.getElementById('address').value;
+      const message = document.getElementById('message').value;
+
+      // Simple validation check
+      if (name == "" || email == "" || phone == "" || address == "" || message == "") {
+        alert("Please fill in all fields!");
+      } else {
+        alert("Success! Your message has been sent.");
+        form.reset(); // Clears the form
+      }
+    };
+  </script>
+
+<!-- MAP API -->
+  <div class="container py-5">
+    <div class="row align-items-center g-4">
+
+      <!-- Text -->
+      <div class="col-md-5">
+        <h2 class="fw-bold">Our Location</h2>
+        <p class="text-muted">
+          Visit us at our office. You can easily find us using Google Maps.
+        </p>
+        <a href="https://maps.google.com" target="_blank" class="btn btn-primary">
+          Open in Google Maps
+        </a>
+      </div>
+
+      <!-- Map -->
+      <div class="col-md-7">
+        <div class="ratio ratio-16x9 rounded overflow-hidden shadow">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746527.4526794753!2d90.3443647!3d23.506657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5b4ce8d199670a3%3A0x50d701af25707b!2sBD%20Easy%20Shop!5e0!3m2!1sen!2sbd!4v1781552998789!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>MD ABDUS SADIR</h5>
+          <p class="mb-0">&copy; 2026. All rights reserved.</p>
+        </div>
+        <div id="datetime" class="col-md-4 text-center"></div>
+        <script>
+          function updateDateTime() {
+            const now = new Date();
+            const options = {
+              weekday: 'short',
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              second: '2-digit',
+              hour12: true
+            };
+            document.getElementById('datetime').textContent = now.toLocaleString('en-US', options);
+          }
+
+          setInterval(updateDateTime, 1000);
+          updateDateTime();
+        </script>
+        <div class="col-md-4 text-md-end">
+          <a href="#" class="text-light me-3"><i class="bi bi-linkedin fs-4"></i></a>
+          <a href="#" class="text-light me-3"><i class="bi bi-github fs-4"></i></a>
+          <a href="#" class="text-light me-3"><i class="bi bi-twitter fs-4"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
