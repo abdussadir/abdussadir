@@ -1,3 +1,14 @@
+<!--
+===============================================================================
+  © 2026 MD Abdus Sadir — github.com/abdussadir — abdussadir.com
+  Original design, layout, artwork and copy. ALL RIGHTS RESERVED.
+  This profile README and assets/hero.svg are not licensed for reuse,
+  redistribution or derivative works. See LICENSE.
+  Fingerprint: AS-PROFILE-2026-abdussadir-8f3c1d
+  Copying this file does not transfer authorship. Ask first: sadir8042@gmail.com
+===============================================================================
+-->
+
 <div align="center">
   <img src="./assets/hero.svg" alt="MD Abdus Sadir — Full-Stack Web Developer" width="100%">
 </div>
@@ -80,6 +91,10 @@ flowchart LR
   classDef core fill:#0b1a2b,stroke:#22d3ee,color:#e2e8f0
   classDef out fill:#0f2233,stroke:#34d399,color:#e2e8f0
   classDef db fill:#111827,stroke:#f0b429,color:#e2e8f0
+
+  style CH fill:#38bdf815,stroke:#38bdf8,stroke-width:1px,color:#38bdf8
+  style CORE fill:#22d3ee15,stroke:#22d3ee,stroke-width:1px,color:#22d3ee
+  style OUT fill:#34d39915,stroke:#34d399,stroke-width:1px,color:#34d399
 ```
 
 > One codebase, many tenants. A feature lives in exactly one place — and both products consume it.
@@ -235,5 +250,10 @@ SaaS products** — especially anything that has to survive real traffic and rea
 <br>
 
 <img src="https://img.shields.io/badge/If_it_isn't_running_in_production,_it_isn't_finished.-0b1a2b?style=for-the-badge&labelColor=0b1a2b&color=22d3ee" alt="If it isn't running in production, it isn't finished.">
+
+<br><br>
+
+<sub>© 2026 <b>MD Abdus Sadir</b> · Design, artwork and copy on this profile are my original work.<br>
+All rights reserved — please don't republish or fork them as your own. <a href="./LICENSE">LICENSE</a></sub>
 
 </div>

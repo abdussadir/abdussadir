@@ -1,4 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="MD Abdus Sadir - Full-Stack Web Developer">
+
+  <title>MD Abdus Sadir — Full-Stack Web Developer</title>
+  <desc>Original artwork by MD Abdus Sadir (github.com/abdussadir). Copyright 2026. All rights reserved. Not licensed for reuse. Fingerprint AS-PROFILE-2026-abdussadir-8f3c1d</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="https://github.com/abdussadir">
+        <dc:title>MD Abdus Sadir - profile hero</dc:title>
+        <dc:creator>MD Abdus Sadir</dc:creator>
+        <dc:rights>Copyright 2026 MD Abdus Sadir. All rights reserved.</dc:rights>
+        <dc:identifier>AS-PROFILE-2026-abdussadir-8f3c1d</dc:identifier>
+        <dc:source>https://github.com/abdussadir</dc:source>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#080f1c"/>
@@ -104,6 +118,7 @@
       <g><rect class="chip" x="1008" y="286" width="122" height="26" rx="13" stroke-width="1"/><text class="mono chipText" x="1069" y="303" text-anchor="middle" font-size="10.5">SOCKET.IO</text></g>
     </g>
 
+    <text class="mono" x="1176" y="336" text-anchor="end" font-size="9" letter-spacing="1.2" fill="#7dd3fc" fill-opacity="0.34">© 2026 MD ABDUS SADIR · github.com/abdussadir</text>
     <rect x="0" y="356" width="1200" height="4" fill="url(#accent)"/>
     <rect x="0.5" y="0.5" width="1199" height="359" rx="20" fill="none" stroke="#1e3a4c" stroke-width="1"/>
   </g>
