@@ -30,7 +30,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,socketio,js,html,css,bootstrap&theme=dark" alt="Backend and frontend stack">
+<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,js,html,css,bootstrap&theme=dark" alt="Backend and frontend stack">
 <br>
 <img src="https://skillicons.dev/icons?i=git,github,githubactions,npm,php,wordpress,vscode,cloudflare&theme=dark" alt="Tooling and delivery">
 
