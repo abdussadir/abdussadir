@@ -18,137 +18,11 @@
 [![Website](https://img.shields.io/badge/abdussadir.com-0B1A2B?style=for-the-badge&logo=googlechrome&logoColor=22D3EE)](https://abdussadir.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1A2B?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://linkedin.com/in/abdussadir)
 [![X](https://img.shields.io/badge/X-0B1A2B?style=for-the-badge&logo=x&logoColor=E2E8F0)](https://twitter.com/abdussadir)
-[![Email](https://img.shields.io/badge/sadir8042@gmail.com-0B1A2B?style=for-the-badge&logo=gmail&logoColor=34D399)](mailto:sadir8042@gmail.com)
 
 ![Profile views](https://komarev.com/ghpvc/?username=abdussadir&style=flat-square&color=22d3ee&label=PROFILE+VIEWS)
 [![Followers](https://img.shields.io/github/followers/abdussadir?style=flat-square&color=34d399&labelColor=0b1a2b&label=FOLLOWERS)](https://github.com/abdussadir?tab=followers)
-![Based in](https://img.shields.io/badge/BASED_IN-DHAKA,_BD-0b1a2b?style=flat-square&color=38bdf8)
-![Open for freelance](https://img.shields.io/badge/STATUS-OPEN_FOR_FREELANCE-0b1a2b?style=flat-square&color=34d399)
 
 </div>
-
----
-
-## `▍` whoami
-
-```jsonc
-{
-  "name":     "MD Abdus Sadir",
-  "role":     "Full-Stack Web Developer",
-  "based_in": "Dhaka, Bangladesh",
-  "building": "OMSNex — multi-tenant order management & CRM SaaS",
-  "runtime":  ["Node.js", "Express", "MySQL", "Socket.IO"],
-  "obsessed_with": ["tenant isolation", "one source of truth", "small verified slices"],
-  "started_with":  "a plain index.html — and never stopped shipping"
-}
-```
-
-Self-taught developer from Bangladesh. I don't build demos — I build the software real
-businesses run their day on: order pipelines that must not lose a row, courier automation
-that must not double-ship, and dashboards people stare at while money moves.
-
----
-
-## `▍` how OMSNex fits together
-
-```mermaid
-flowchart LR
-  subgraph CH["Customer channels"]
-    FB["Messenger"]:::ch
-    WA["WhatsApp"]:::ch
-    IG["Instagram"]:::ch
-    WEB["Storefront"]:::ch
-  end
-
-  subgraph CORE["OMSNex core - one shared codebase"]
-    API["Express API<br/>multi-tenant"]:::core
-    INBOX["Unified inbox<br/>Socket.IO"]:::core
-    ORD["Order pipeline<br/>invoice + barcode"]:::core
-    AI["AI sales agent"]:::core
-  end
-
-  subgraph OUT["Delivery and ops"]
-    SF["Steadfast"]:::out
-    PT["Pathao"]:::out
-    DASH["Realtime dashboards"]:::out
-  end
-
-  DB[("MySQL<br/>tenant-isolated")]:::db
-
-  FB --> INBOX
-  WA --> INBOX
-  IG --> INBOX
-  WEB --> ORD
-  AI --> INBOX
-  INBOX --> API
-  ORD --> API
-  API --> DB
-  API --> SF
-  API --> PT
-  API --> DASH
-
-  classDef ch fill:#0d2032,stroke:#38bdf8,color:#e2e8f0
-  classDef core fill:#0b1a2b,stroke:#22d3ee,color:#e2e8f0
-  classDef out fill:#0f2233,stroke:#34d399,color:#e2e8f0
-  classDef db fill:#111827,stroke:#f0b429,color:#e2e8f0
-
-  style CH fill:#38bdf815,stroke:#38bdf8,stroke-width:1px,color:#38bdf8
-  style CORE fill:#22d3ee15,stroke:#22d3ee,stroke-width:1px,color:#22d3ee
-  style OUT fill:#34d39915,stroke:#34d399,stroke-width:1px,color:#34d399
-```
-
-> One codebase, many tenants. A feature lives in exactly one place — and both products consume it.
-
----
-
-## `▍` currently shipping
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛰️ [OMSNex](https://omsnex.com)
-
-Multi-tenant order management & CRM SaaS for e-commerce teams.
-Courier automation, unified messaging, real-time ops.
-
-`Node.js` `Express` `MySQL` `Socket.IO`
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 [BD Easy Shop](https://www.bdeasyshop.xyz)
-
-Admin control plane powering the platform — the panel
-the whole operation is driven from.
-
-`pnpm` `Turborepo` `monorepo`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛒 [Ghorer Bazar](https://github.com/abdussadir/ghorerbazar)
-
-Responsive e-commerce storefront front-end, built
-mobile-first for real BD shoppers.
-
-`HTML5` `CSS3` `Bootstrap 5`
-
-</td>
-<td width="50%" valign="top">
-
-### 🎯 [abdussadir.com](https://abdussadir.com)
-
-My personal site — work, services and contact.
-Hand-built, no page builder.
-
-`HTML5` `CSS3` `JavaScript`
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -170,12 +44,11 @@ Hand-built, no page builder.
 | Layer | What I reach for | Why |
 | :--- | :--- | :--- |
 | **Runtime** | Node.js · Express | Fast to ship, easy to keep boring and predictable |
-| **Data** | MySQL · schema-first migrations | Orders are money — I want constraints, not vibes |
-| **Realtime** | Socket.IO | Live inboxes and dashboards without hammering the DB |
+| **Data** | MySQL · schema-first migrations | I want constraints, not vibes |
+| **Realtime** | Socket.IO | Live UI without hammering the DB |
 | **Frontend** | JavaScript · HTML5 · CSS3 · Bootstrap 5 | Hand-written UI, no framework tax where it isn't earned |
 | **Delivery** | Git · GitHub Actions · pnpm · Turborepo | One command from commit to production |
-| **Integrations** | Steadfast · Pathao · Messenger · WhatsApp · Instagram | The APIs Bangladeshi e-commerce actually runs on |
-| **Also fluent in** | WordPress · PHP · REST API design | Where a lot of clients already live |
+| **Also fluent in** | WordPress · PHP · REST API design | Handy for a wide range of project types |
 
 </details>
 
@@ -184,11 +57,10 @@ Hand-built, no page builder.
 
 <br>
 
-- **Production data comes first.** No feature is worth a corrupted order table.
-- **Share code, never tenant data.** Strict isolation at every boundary, by default.
 - **Small, verified slices.** Read the existing code → smallest safe change → test → ship.
 - **End to end or not done.** Design, build, test, deploy — "it works locally" is not a status.
 - **Say it plainly.** If something failed, I say it failed. No green checkmarks over red builds.
+- **One source of truth.** A feature lives in one place, not copy-pasted everywhere.
 
 </details>
 
@@ -197,10 +69,10 @@ Hand-built, no page builder.
 
 <br>
 
-- Deeper TypeScript across the monorepo
-- Queue-backed job processing for courier and messaging retries
-- Observability: structured logs, tenant-scoped tracing, real error budgets
-- Cost-aware AI agents that actually close sales instead of just replying
+- Deeper TypeScript across larger codebases
+- Queue-backed background job processing
+- Observability: structured logs, tracing, real error budgets
+- Practical, cost-aware use of AI in production systems
 
 </details>
 
@@ -238,18 +110,9 @@ Hand-built, no page builder.
 
 ---
 
-## `▍` let's build something
-
-I take on freelance work and collaborations on **web applications, e-commerce platforms and
-SaaS products** — especially anything that has to survive real traffic and real money.
-
 <div align="center">
 
-**📫 [sadir8042@gmail.com](mailto:sadir8042@gmail.com)** &nbsp;·&nbsp; **🌐 [abdussadir.com](https://abdussadir.com)** &nbsp;·&nbsp; **💼 [LinkedIn](https://linkedin.com/in/abdussadir)**
-
-<br>
-
-<img src="https://img.shields.io/badge/If_it_isn't_running_in_production,_it_isn't_finished.-0b1a2b?style=for-the-badge&labelColor=0b1a2b&color=22d3ee" alt="If it isn't running in production, it isn't finished.">
+**🌐 [abdussadir.com](https://abdussadir.com)** &nbsp;·&nbsp; **💼 [LinkedIn](https://linkedin.com/in/abdussadir)** &nbsp;·&nbsp; **🐦 [X](https://twitter.com/abdussadir)**
 
 <br><br>
 

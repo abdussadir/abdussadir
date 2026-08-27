@@ -101,15 +101,15 @@
     <g class="mono" font-size="15.5">
       <g class="line d2"><text x="82" y="118"><tspan class="prompt">$</tspan><tspan class="cmd" dx="10">whoami</tspan></text></g>
       <g class="line d3"><text class="sans name" x="82" y="152" font-size="32" font-weight="700">MD Abdus Sadir</text></g>
-      <g class="line d4"><text x="82" y="180"><tspan class="out">→ Full-Stack Web Developer · Dhaka, Bangladesh</tspan></text></g>
+      <g class="line d4"><text x="82" y="180"><tspan class="out">→ Full-Stack Web Developer</tspan></text></g>
       <g class="line d5"><text x="82" y="216"><tspan class="prompt">$</tspan><tspan class="cmd" dx="10">cat focus.txt</tspan></text></g>
-      <g class="line d6"><text x="82" y="242"><tspan class="out">→ multi-tenant SaaS &amp; e-commerce systems — db to deploy</tspan></text></g>
+      <g class="line d6"><text x="82" y="242"><tspan class="out">→ building products that ship — end to end</tspan></text></g>
       <g class="line d7"><text x="82" y="278"><tspan class="prompt">$</tspan><tspan class="cmd" dx="10">./ship --production</tspan><tspan class="caret" dx="8">▊</tspan></text></g>
     </g>
 
     <g class="line d8">
       <circle class="pulse" cx="90" cy="299" r="5" fill="#34d399"/>
-      <text class="mono ok" x="106" y="304" font-size="12.5" letter-spacing=".8">OMSNex · live in production · serving real orders daily</text>
+      <text class="mono ok" x="106" y="304" font-size="12.5" letter-spacing=".8">Always building. Always shipping.</text>
     </g>
 
     <g class="line d8" transform="translate(0,6)">
