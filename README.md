@@ -49,31 +49,3 @@
 | **Frontend** | JavaScript · HTML5 · CSS3 · Bootstrap 5 | Hand-written UI, no framework tax where it isn't earned |
 | **Delivery** | Git · GitHub Actions · pnpm · Turborepo | One command from commit to production |
 | **Also fluent in** | WordPress · PHP · REST API design | Handy for a wide range of project types |
-
-</details>
-
-<details>
-<summary><b>›&nbsp; how I work</b></summary>
-
-<br>
-
-- **Small, verified slices.** Read the existing code → smallest safe change → test → ship.
-- **End to end or not done.** Design, build, test, deploy — "it works locally" is not a status.
-- **Say it plainly.** If something failed, I say it failed. No green checkmarks over red builds.
-- **One source of truth.** A feature lives in one place, not copy-pasted everywhere.
-
-</details>
-
-<details>
-<summary><b>›&nbsp; what I'm sharpening next</b></summary>
-
-<br>
-
-- Deeper TypeScript across larger codebases
-- Queue-backed background job processing
-- Observability: structured logs, tracing, real error budgets
-- Practical, cost-aware use of AI in production systems
-
-</details>
-
----
