@@ -35,17 +35,3 @@
 <img src="https://skillicons.dev/icons?i=git,github,githubactions,npm,php,wordpress,vscode,cloudflare&theme=dark" alt="Tooling and delivery">
 
 </div>
-
-<details>
-<summary><b>›&nbsp; the full inventory</b></summary>
-
-<br>
-
-| Layer | What I reach for | Why |
-| :--- | :--- | :--- |
-| **Runtime** | Node.js · Express | Fast to ship, easy to keep boring and predictable |
-| **Data** | MySQL · schema-first migrations | I want constraints, not vibes |
-| **Realtime** | Socket.IO | Live UI without hammering the DB |
-| **Frontend** | JavaScript · HTML5 · CSS3 · Bootstrap 5 | Hand-written UI, no framework tax where it isn't earned |
-| **Delivery** | Git · GitHub Actions · pnpm · Turborepo | One command from commit to production |
-| **Also fluent in** | WordPress · PHP · REST API design | Handy for a wide range of project types |
